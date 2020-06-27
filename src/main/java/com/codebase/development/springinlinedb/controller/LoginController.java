@@ -16,13 +16,13 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
 
 import com.codebase.development.springinlinedb.constants.Constants;
 import com.codebase.development.springinlinedb.model.UserAccountDetails;
 import com.codebase.development.springinlinedb.service.CashTransactionManagementService;
 
-
-@Controller
+@RestController
 public class LoginController {
 
 	@Autowired
