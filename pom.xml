@@ -205,7 +205,7 @@ spring.datasource.tomcat.test-on-borrow=false
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.H2Dialect
 spring.jpa.properties.hibernate.id.new_generator_mappings=false
 spring.jpa.properties.hibernate.format_sql=true 	
-spring.datasource.platform=h2	
+
 	
 	
 	
